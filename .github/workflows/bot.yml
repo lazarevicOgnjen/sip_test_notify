@@ -2,7 +2,12 @@ name: send_email
 
 on:
   schedule:
-    - cron: '30 18 20 11 *'
+    - cron: '0 5 30 12 *'   
+    - cron: '0 5 2 2 *'    
+    - cron: '0 5 7 4 *'    
+    - cron: '0 5 8 6 *'     
+    - cron: '0 5 13 7 *'    
+    - cron: '0 5 4 9 *'     
 
 jobs:
   mail:
